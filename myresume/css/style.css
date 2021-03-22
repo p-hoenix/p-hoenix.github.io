@@ -1,0 +1,72 @@
+body {
+  background-color: #313236;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: rgb(63, 63, 63);
+}
+
+.About_me_pofesion {
+  font-size: 14px;
+  font-weight: 700;
+  color: blanchedalmond;
+}
+.About_me {
+  color: blanchedalmond;
+
+  margin: 20px 70px 50px 80px;
+  padding: 10px 200px 20 100px;
+}
+
+.My_projects {
+  color: blanchedalmond;
+  margin: 20px 70px 50px 80px;
+}
+
+.My_Work {
+  color: blanchedalmond;
+  margin: 20px 70px 50px 80px;
+}
+
+.My_education {
+  color: blanchedalmond;
+  margin: 20px 70px 50px 80px;
+}
+li {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+}
+.Project_item {
+  color: #fd7e14;
+}
+.img {
+  width: 400px;
+  height: auto;
+}
+.sidebar {
+  background-color: black;
+  width: 400px;
+}
+.contact {
+  color: blanchedalmond;
+  margin: 20px 70px 50px 80px;
+}
+.lincs {
+  color: #fd7e14;
+}
+.period {
+  color: #b9733a;
+  font-size: 10px;
+  margin-top: 10px;
+  padding-top: 0px;
+}
+.title_4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+}
