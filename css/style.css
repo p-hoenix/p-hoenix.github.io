@@ -1,14 +1,12 @@
 body {
   background-color: #313236;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0 0 10px rgba(184, 75, 3, 0.5);
-  width: 1000px;
 }
 
 .main_content {
   display: flex;
   flex-direction: row-reverse;
-  width: 1000px;
+  width: 1200px;
   background-color: rgb(63, 63, 63);
 }
 
@@ -56,7 +54,7 @@ li {
 }
 .contact {
   color: blanchedalmond;
-  margin-left: 20px;
+  margin: 20px 70px 50px 80px;
 }
 .lincs {
   color: #fd7e14;
