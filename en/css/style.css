@@ -1,0 +1,177 @@
+body {
+  background-color: #313236;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 0 10px rgba(184, 75, 3, 0.5);
+  width: 1000px;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1000px;
+  background-color: rgb(63, 63, 63);
+}
+
+.translate{
+  background: transparent;
+  border: none;
+  margin-left: 12px;
+}
+.About_me_pofesion {
+  font-size: 14px;
+  font-weight: 700;
+  color: blanchedalmond;
+}
+.About_me {
+  color: blanchedalmond;
+
+  margin: 20px 70px 50px 80px;
+  padding: 10px 200px 20 100px;
+}
+
+.My_projects {
+  color: blanchedalmond;
+  margin: 20px 70px 50px 80px;
+}
+
+.My_Work {
+  color: blanchedalmond;
+  margin: 20px 70px 50px 80px;
+}
+
+.My_education {
+  color: blanchedalmond;
+  margin: 20px 70px 50px 80px;
+}
+li {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+}
+.Project_item {
+  color: #fd7e14;
+}
+.img {
+  width: 400px;
+  height: 750px;
+}
+.sidebar {
+  background-color: black;
+  width: 400px;
+}
+.contact {
+  color: blanchedalmond;
+  margin-left: 20px;
+}
+.lincs {
+  color: #fd7e14;
+}
+.period {
+  color: #b9733a;
+  font-size: 10px;
+  margin-top: 10px;
+  padding-top: 0px;
+}
+.title_4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+}
+.Social {
+  width: 15px;
+  height: auto;
+  margin-right: 5px;
+}
+*{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
