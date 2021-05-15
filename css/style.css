@@ -3,6 +3,7 @@ body {
   font-family: "Montserrat", sans-serif;
   box-shadow: 0 0 10px rgba(184, 75, 3, 0.5);
   width: 1000px;
+  margin: 10px;
 }
 
 .main_content {
@@ -15,7 +16,11 @@ body {
 .translate{
   background: transparent;
   border: none;
-  margin: 0px;
+  margin-left: 2px;
+}
+
+.flexible-image{
+  max-width: 100%;
 }
 .About_me_pofesion {
   font-size: 14px;
