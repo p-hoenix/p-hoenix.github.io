@@ -35,6 +35,17 @@ body {
   transition: 0.3s;
 }
 
+.axisWrapper {
+  margin: auto;
+}
+
+.radar-skills {
+  align-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
 /* line 16, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 a,
 .button {

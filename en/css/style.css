@@ -4,6 +4,11 @@
   width: 1000px;
 }
 
+.radar-skills {
+  width: auto;
+  height: auto;
+}
+
 .main_content {
   display: flex;
   flex-direction: row-reverse;

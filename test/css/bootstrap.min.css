@@ -628,6 +628,7 @@ pre code {
 
 .row {
     display: -webkit-box;
+    align-content: center;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
