@@ -1,100 +1,312 @@
+/*
+ * © Bugaev Ivan
+ * This code is protected by copyright.
+*/
+
 body {
-  background-color: #313236;
-  font-family: "Montserrat", sans-serif;
-  box-shadow: 0 0 10px rgba(184, 75, 3, 0.5);
-  width: 1000px;
-  margin: 10px;
+  background-color: #e4e4e4;
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  font-weight: 400;
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
-.main_content {
-  display: flex;
-  flex-direction: row-reverse;
-  width: 1000px;
-  background-color: rgb(63, 63, 63);
+a {
+  color: #337ab7;
+}
+a:hover {
+  color: #23527c;
 }
 
-.translate{
-  background: transparent;
-  border: none;
-  margin-left: 2px;
+::-webkit-input-placeholder {
+  color: #000;
+}
+::-moz-placeholder {
+  color: #000;
+}
+:-moz-placeholder {
+  color: #000;
+}
+:-ms-input-placeholder {
+  color: #000;
 }
 
-.flexible-image{
-  max-width: 100%;
+.row {
+  margin-bottom: -4px;
 }
-.About_me_pofesion {
-  font-size: 14px;
+
+.noscroll {
+  overflow: hidden;
+}
+.display-none {
+  display: none;
+}
+
+/* Header */
+
+.biv-header {
+  display: inline-block;
+  width: 100%;
+}
+.biv-header-logo {
+  padding: 30px 45px 30px 45px;
+  float: left;
+  width: 50%;
+}
+.biv-header-logo a {
+  font-size: 36px;
+  line-height: 44px;
+  color: #fff;
+  text-decoration: none;
+}
+.biv-header-logo a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.biv-header-phone {
+  padding: 30px 45px 30px 45px;
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+.biv-header-phone a {
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+  display: inline-block;
+  padding: 12px;
+  text-decoration: none;
+}
+.biv-header-phone a:hover {
+  text-decoration: none;
+}
+.biv-header-phone a span {
+  display: inline-block;
+  margin-right: 10px;
+}
+@media (max-width:991px){
+  .biv-header-logo {
+    padding: 15px 15px 15px 15px;
+  }
+  .biv-header-logo a {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .biv-header-phone {
+    padding: 15px 15px 15px 15px;
+  }
+  .biv-header-phone a {
+    padding: 6px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+@media (max-width:600px){
+  .biv-header-logo {
+    padding: 30px 15px 0px 15px;
+    width: 100%;
+    text-align: center;
+  }
+  .biv-header-phone {
+    padding: 0px 15px 30px 15px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Content */
+.biv-info {
+  padding: 0px 30px 0px 30px;
+}
+.biv-info-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.biv-info-title h1 {
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: blanchedalmond;
 }
-.About_me {
-  color: blanchedalmond;
+.biv-info-title h1 span {
+  display: inline-block;
+  color: #61b9e8;
+}
+.biv-info-desc {
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.biv-info-social {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.biv-info-social ul {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.biv-info-social ul li {
+  display: inline-block;
+  margin: 0px 5px 15px 5px;
+}
+.biv-info-social ul li a {
+  display: inline-block;
+  border: 2px solid #fff;
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  line-height: 24px;
+  padding-top: 10px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+.biv-info-social ul li a:hover {
+  border: 2px solid #fff;
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0% 0%;
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width:991px){
+  .biv-info {
+    padding: 0px 10px 0px 10px;
+  }
+  .biv-info-title {
+    margin: 0px 15px 15px 15px;
+  }
+  .biv-info-title h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .biv-info-desc {
+    margin: 0px 15px 30px 15px;
+  }
+}
 
-  margin: 20px 70px 50px 80px;
-  padding: 10px 200px 20 100px;
-}
+/* Footer */
 
-.My_projects {
-  color: blanchedalmond;
-  margin: 20px 70px 50px 80px;
+#footer.fixed {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  z-index: 99999;
+  width: 100%;
 }
-
-.My_Work {
-  color: blanchedalmond;
-  margin: 20px 70px 50px 80px;
+#footer {
+  display: inline-block;
+  width: 100%;
 }
-
-.My_education {
-  color: blanchedalmond;
-  margin: 20px 70px 50px 80px;
+.biv-footer-info {
+  padding: 30px 45px 30px 45px;
+  float: left;
+  width: 50%;
 }
-li {
-  color: #ffffff;
-  font-size: 14px;
+.biv-footer-info-name {
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+.biv-footer-info-rights {
+  color: #fff;
+  font-size: 16px;
   line-height: 24px;
 }
-.Project_item {
-  color: #fd7e14;
+.biv-footer-doc {
+  padding: 30px 45px 30px 45px;
+  float: left;
+  width: 50%;
+  text-align: right;
 }
-.img {
-  width: 400px;
-  height: 750px;
-}
-.sidebar {
-  background-color: black;
-  width: 400px;
-}
-.contact {
-  color: blanchedalmond;
-  margin-left: 20px;
-}
-.lincs {
-  color: #fd7e14;
-}
-.period {
-  color: #b9733a;
-  font-size: 10px;
-  margin-top: 10px;
-  padding-top: 0px;
-}
-.title_4 {
-  font-size: 16px;
+.biv-footer-doc a {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
   margin-bottom: 5px;
-  padding-bottom: 0px;
+  text-decoration: none;
 }
-.Social {
-  width: 15px;
-  height: auto;
-  margin-right: 5px;
+.biv-footer-doc a:hover {
+  text-decoration: none;
 }
-*{box-sizing:border-box}
+@media (max-width:991px){
+  .biv-footer-info {
+    padding: 15px 15px 15px 15px;
+  }
+  .biv-footer-info-name {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .biv-footer-info-rights {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .biv-footer-doc {
+    padding: 15px 15px 15px 15px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .biv-footer-doc a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
+/* Terms of use */
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+.biv-agreement {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0% 0%;
+  color: #fff;
+  padding: 15px 93px 15px 30px;
+  position: fixed;
+  min-height: 78px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999;
+}
+.biv-agreement-text {
+  font-size: 16px;
+  line-height: 22px;
+}
+.biv-agreement-text a {
+  color: #a6f9ff;
+}
+.biv-agreement-text a:hover {
+  color: #bffbff;
+}
+.biv-agreement-btn {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+.biv-agreement-btn span {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  font-size: 24px;
+  line-height: 24px;
+  padding-top: 12px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+.biv-agreement-btn span:hover {
+  background-color: #fff;
+  color: #000;
+}
+.biv-agreement.biv-agreement-hidden {
+  display: none;
 }
