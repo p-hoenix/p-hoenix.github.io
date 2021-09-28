@@ -891,9 +891,9 @@ h3 {
   padding: 18px 0;
   background: #fff;
   background: transparent;
-  padding: 25px 185px;
-  padding: 25px 150px;
-  height: 15%;
+  padding: 25px 200px;
+  padding: 25px 200px;
+  height: 25%;
 }
 
 /* line 21, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
@@ -948,7 +948,7 @@ h3 {
 }
 
 .logo {
-  width: 64px;
+  width: 32px;
 }
 
 @media (max-width: 767px) {
