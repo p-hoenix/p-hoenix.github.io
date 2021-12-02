@@ -501,8 +501,8 @@ body{
     border-radius: 40px;
 }
 .about-img {
-    width: 550px;
-    height:auto;
+    width:auto;
+    height:100%;
     padding: 30px;
     padding-top: 10px;
     border-radius: 40px;
@@ -1940,7 +1940,7 @@ for tabs and large phones
         border-radius: 40px;
     }
     .about-img {
-        width: 550px;
+        width: auto;
         height:auto;
         padding: 30px;
         padding-top: 10px;
@@ -2292,7 +2292,7 @@ for tabs and large phones
         animation: opacity 1.4s ease ;
     }
     .about-img {
-        width: 40%;
+        width:auto;
         height:450px;
         padding: 30px;
         border-radius: 40px;
