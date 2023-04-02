@@ -1,587 +1,249 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Anton Levchenko - Personal Portfolio Website" />
-	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, Phoenix, Black Phoenix, Phoenix resume, vcard" />
-	<meta name="author" content="Anton Levchenko" />
-    <title>Anton Levchenko</title>
-   <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="css/index.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
-</head>
-<body>
-    <div id="all">
-        <div class="cursor"></div>
-        <div id="loader">
-            <span class="color">Anton </span>Levchenko 
-        </div>
-        <div id="breaker">
-        </div>
-        <div id="breaker-two">
-        </div>
-        <div id="navigation-content">
+  <head>
+    <title>Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="icon" type="image/png" href="img/logo.png" sizes="16x16">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+      
+    <section id="home">
+        <div class="header">
             <div class="logo">
-                <img src="images/favicon.png" alt="logo">
+                <img src="img/logo.png" alt="">
             </div>
-            <div class="navigation-close">
-                <span class="close-first"></span>
-                <span class="close-second"></span>
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+            <div class="wrapper">
+                <ul class="menu">
+                    <li><a href="#home">Головна</a></li>
+                    <li><a href="#services">Послуги</a></li>
+                    <li><a href="#works">Мої роботи</a></li>
+                    <li><a href="#talk">Зв'язатись зі мною</a></li>
+                </ul>
             </div>
-            <div class="navigation-links">
-                <a href="#" data-text="HOME" id="home-link" >HOME</a>
-                <a href="#" data-text="ABOUT" id="about-link" >ABOUT</a>
-                <a href="#" data-text="BLOG" id="blog-link" >BLOG</a>
-                <a href="#" data-text="PORTFOLIO" id="portfolio-link" >PORTFOLIO</a>
-                <a href="#" data-text="CONTACT" id="contact-link" >CONTACT</a>
-            </div>
-        </div>
-        <div id="navigation-bar">
-            <img src="images/Phoenix logp.png" alt="logo">
-            <div class="menubar">
-                <span class="first-span"></span>
-                <span class="second-span"></span>
-                <span class="third-span"></span>
-            </div>
-        </div>
-        <div id="header">
-            <div id="particles"></div>
-            <div class="social-media-links">
-               <a href="https://www.instagram.com/_.black__phoenix._/"><img src="images/instagram logo.png" class="social-media" alt="instagram-logo"></a>
-                <a href="https://www.facebook.com/IHorsv2011"><img src="images/facebook logo.png" class="social-media" alt="facebook-logo"></a>
-                <a href="https://www.linkedin.com/in/игорь-скороход-618b30b9/"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
-                <a href="https://t.me/Black_phoenix_st"><img src="images/Tekegram logo.png" class="social-media" alt="telegram-logo"></a>
-
-            </div>
-            <div class="header-content">
-                <div class="header-content-box">
-                <div class="firstline"><span class="color">Anton</span> Levchenko</div>
-                <div class="secondline">
-                I'm a
-            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Game Developer.", " Blogger.", " Freelancer." ]'></span>
-            <span class="slash">|</span>
-        </div>
-                    <div class="contact">
-                <a href="Mailto:ck.ig.ba@gmail.com"><img src="images/mail.png" alt="email-pic" class="contactpic"></a>
-                <a href="Tel:+380667890756"><img src="images/call.png" alt="phone-pic" class="contactpic"></a>
-                    </div>    
-            </div>
-            </div>
-            <div class="header-image">
-            <img src="images/man.jpg" alt="logo">
-            </div>
-        </div>
-        <div id="about">
-            <div class="color-changer">
-            <div class="color-panel">
-                <img src="images/gear.png" alt="">
-            </div>
-            <div class="color-selector">
-                <div class="heading">Custom Colors</div>
-                <div class="colors">
-                    <ul >
-                    <li>
-                        <a href="#0" class="color-red " title="color-red"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-purple" title="color-purple"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-malt" title="color-malt"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-green" title="color-green"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-blue" title="color-blue"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-orange" title="color-orange"></a>
-                    </li>
-                    </ul>
-                </div>
-            </div>
-            </div>
-            <div id="about-content">
-                <div class="about-header">
-                    About <span class="color">Me</span>
-                    <span class ="header-caption">Get to Know <span class="color"> me.</span></span>
-                </div>
-                <div class="about-main">
-            <div class="about-first-paragraph wow">
-               <span class="about-first-line">
-                    I'm creative 
-                    <span class="color">web developer</span>
-                     based in Sumy , Ukraine </span>
-                     <br>
-               <span class="about-second-line"> With 1 years of experience as a Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step while working.</span>
-               <div class="cv">
-                <a href="#"><button>Download <span class="colors">CV</span></button></a>
-            </div>
-            </div>
-            <div class="about-img">
-                <img src="images/26.jpg" alt="Your Image">
-            </div>
-            </div>
-    
-            </div>
-            <div id="services">
-                <div class="color-changer">
-                    <div class="color-panel">
-                        <img src="images/gear.png" alt="">
-                    </div>
-                    <div class="color-selector">
-                        <div class="heading">Custom Colors</div>
-                        <div class="colors">
-                            <ul >
-                            <li>
-                                <a href="#0" class="color-red " title="color-red"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-purple" title="color-purple"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-malt" title="color-malt"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-green" title="color-green"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-blue" title="color-blue"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-orange" title="color-orange"></a>
-                            </li>
-                            </ul>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="services-heading wow">
-                        <span class="color">My</span> Services
-                    </div>
-                    <div class="services-content">
-                           <div class="service-one service wow">
-                               <div class="service-img">
-                               <img src="images/coding.png" alt="service-one">
-                               </div>
-                               <div class="service-description">
-                                <h2>Web Designing</h2>
-                                <p>I create sites of almost any complexity, according to your terms of reference</p>
-                               </div>
-                           </div>
-                           <div class="service-two service wow">
-                               <div class="service-img">
-                               <img src="images/instagram.png" alt="service-two">
-                               </div>
-                               <div class="service-description">
-                                <h2>App Development</h2>
-                                <p>I can also create small mobile applications, with its subsequent support at all stages   </p>
-                               </div>
-                           </div>
-                           <div class="service-three service wow">
-                            <div class="service-img">
-                               <img src="images/bulb.png" alt="service-three">
+            <div class="hero">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
+                            <div class="hello">
+                                <img src="img/hello.png" alt="">
+                                <p>Привіт!!! <span class="i">я,</span></p>
                             </div>
-                            <div class="service-description">
-                                <h2>Open to ideas</h2>
-                                <p>Always looking for new experiences, open to suggestions, I'm still looking for my direction</p>
+                            <h1>Ігор</h1>
+                            <div class="aboutme">
+                                <p>Про мене</p>
+                                <img src="img/down.png" alt="">
+                            </div>
+                            <div class="aboutdetails">
+                                <p>Я створюю функціональні та привабливі веб-сайти, націлені на збільшення вашого бізнесу. З досвідом у створенні якісних проєктів, я пропоную індивідуальний підхід до кожного проєкту і працюю над тим, щоб досягти максимальних результатів для кожного клієнта. Я переконаний, що деталі мають значення, і приділяю особливу увагу кожній деталі в процесі розробки сайту. Зв'яжіться зі мною сьогодні, щоб почати роботу над вашим новим проектом і привести ваш бізнес на новий рівень!</p>
+                            </div>
+                            <div class="explore">
+                                <a href="#">Дізнатись більше</a>
+                                <img src="img/explore.svg" alt="">
+                            </div>
+                            <div class="social">
+                                <p>Слідкувати:</p>
+                                <div class="icons">
+                                    <a href="https://www.facebook.com/IHorsv2011"><i  class="fab fa-facebook-f"></i></a>
+                                    <a  href="https://twitter.com/IgorSkorok17645"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/_.White__phoenix._/"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 ipad-center">
+                            <div class="headsvg">
+                                <img src="img/header.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12">
+                            <div class="righthead">
+                                <div class="wrap">
+                                    <div class="bg"></div>
+                                    <h2>1+</h2>
+                                    <span class="heading">Досвіду</span>
+                                    <p>Я дуже амбітний і мрію стати досвідченим веб-розробником, який створює круті та красиві сайти, які залишають враження на людей. Я знаю, що в мене ще багато роботи, щоб досягти своєї мети, але я готовий вчитися і розвиватися, щоб стати кращим у своїй галузі.</p>
+                                </div>
+                                <div class="wrap mt-5">
+                                    <div class="bg2"></div>
+                                    <h2>20+</h2>
+                                    <span class="heading">Повністю готових сайтів</span>
+                                    <p>Мені дуже подобається створювати веб-сторінки робити їх гарними та функціональними. Я постійно вивчаю наві технології та інструменти, щоб стати кращим в своїй рооботі.</p>
+                                </div>
+                                <div class="contact">
+                                    <i class="far fa-comment-dots"></i>
+                                    <div class="contactdetails">
+                                        <p class="red">Моя пошта:</p>
+                                        <p>ck.ig.ba@gmail.com</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-            </div>
-            <div id="skills">
-                <div class="skills-header">
-                     My <span class="color"> Skills</span>
                 </div>
-                <div class="skills-content " style="text-align: center;">
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                    <div class="html">
-                        HTML/CSS
-                    </div>
-                        </div>
-                    <div class="html-prog wow prog">
-                 <div class="html-progress wow">95%</div>
-                    </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                    <div class="html">
-                      Javascript
-                    </div>
-                        </div>
-                    <div class="html-prog wow prog">
-                 <div class="js-progress wow">90%</div>
-                    </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                    <div class="html">
-                        Adobe Ps
-                    </div>
-                        </div>
-                    <div class="html-prog wow prog">
-                 <div class="adobe-progress wow">83%</div>
-                    </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                    <div class="html">
-                        PHP
-                    </div>
-                        </div>
-                    <div class="html-prog wow prog">
-                 <div class="php-progress wow">87%</div>
-                    </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                    <div class="html">
-                        JQuery
-                    </div>
-                        </div>
-                    <div class="html-prog wow prog">
-                 <div class="jquery-progress wow">94%</div>
-                    </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                    <div class="html">
-                        SEO
-                    </div>
-                        </div>
-                    <div class="html-prog wow prog">
-                 <div class="seo-progress wow">84%</div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer">
-             <div class="footer-text">
-                 <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Black Phoenix
-             </div>
             </div>
         </div>
-        <div id="portfolio">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul >
-                        <li>
-                            <a href="#0" class="color-red " title="color-red"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-purple" title="color-purple"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-malt" title="color-malt"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-green" title="color-green"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-blue" title="color-blue"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-orange" title="color-orange"></a>
-                        </li>
-                        </ul>
-                    </div>
-                </div>
-                </div>
-            <div class="portfolio-header"> <span class="color"> My </span> Portfolio
-            <span class ="header-caption"> Some Of My <span class="color"> Works</span></span></div>
-             <div id="portfolio-content">
-                 <div class="portfolio portfolio-first">
-                     <div class="portfolio-image">
-                        <img src="images/portfolio-first.jpg" alt="portfolio-first">
-                     </div>
-                     <div class="portfolio-text">
-                         <h2>First Game</h2>
-                         <p>Actually the page is taken from open-source Phoenix, because I am from Ukraine and do not have access to my projects at the moment (early summer 2022)
-                         </p>
-                         <div class="button"><a href="a/pin-pong.html" target="_blank"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
-                         <div class="button"><a href="https://core.ai/about.html" target="_blank"><button><span class="index"> View Sourse<i class="gg-arrow-right"></i></span></button></a></div>
-                     </div>
-                 </div>
-                 <div class="portfolio portfolio-second">
-                    <div class="portfolio-image">
-                        <img src="images/Blog/output_HD720-652x405.gif" alt="portfolio-second">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>Online store</h2>
-                        <p> Roughly the same story as with the WordPress-based site, it was created based on the OcStore engine (Opencart)
-                            
-                            The site also has its own CMS with a very convenient order manager, as well as easy to edit and has the ability to fine-tune</p>
-                        <div class="button"><a href="https://kievburmash.com.ua" target="_blank"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
-                    </div>
-                </div>
-                <div class="portfolio portfolio-third">
-                    <div class="portfolio-image">
-                        <img src="images/portfolio-third.jpg" alt="portfolio-third">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>UI Designing</h2>
-                        <p></p>
-                        <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
-                    </div>
-                </div>
-                <div class="portfolio portfolio-fourth">
-                    <div class=" portfolio-image">
-                        <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>Wow Graphics</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
-                             expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
-                        <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
-                    </div>
-                </div>
-                 </div>
-            <div class="footer">
-                <div class="footer-text">
-                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Black Phoenix
-                </div>
-               </div>
-             </div>
-        <div id="blog">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul >
-                        <li>
-                            <a href="#0" class="color-red " title="color-red"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-purple" title="color-purple"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-malt" title="color-malt"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-green" title="color-green"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-blue" title="color-blue"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-orange" title="color-orange"></a>
-                        </li>
-                        </ul>
-                    </div>
-                </div>
-                </div>
-        <div class="blog-header"> Blogs</span>
-            <span class ="header-caption"> My Latest <span class="color"> blog posts.</span></span></div>
-            <div class="blog-content">
-                 <div class="blogs">
-                     <a href="#">
-                     <div class="img">
-                        <img src="images/Blog/U3AN.gif" alt="blog-one">
-                        <div class="blog-date">8 May,20</div>
-                     </div>
-                     <div class="blog-text">
-                         <h3>Досконала</h3>
-                         <p>Ти моя досконалість!
-З тобою бути одне блаженство
-І для мене величезна удача,
-Бути з тобою,
-А як інакше?</p>
-                     </div></a>
-                 </div>      
-                 <div class="blogs">
-                    <a href="#">
-                    <div class="img">
-                        <img src="images/Blog/U3AN.gif" alt="blog-two">
-                        <div class="blog-date">16 Jan,20</div>
-                    </div>
-                    <div class="blog-text">
-                        <h3>Прекрасна</h3>
-                        <p>Ви прекрасні без сумніву!
-Велике щастя, натхнення!
-Милуючись вашою красою,
-До ніг впаде вся стать чоловіча!
-</p>
-                    </div></a>
-                </div>      
-                <div class="blogs">
-                    <a href="#">
-                    <div class="img">
-                        <img src="images/Blog/U3AN.gif" alt="blog-three">
-                        <div class="blog-date">30 Nov,19</div>
-                    </div>
-                    <div class="blog-text">
-                        <h3>Найкрасивіша</h3>
-                        <p>Немає красивіше тебе
-Кажу я це, люблячи!
-Для тебе я готовий гори звернути!
-Ти тільки зі мною, кохана, будь!
-</p>
-                    </div></a>
-                </div>
-                <div class="blogs">
-                    <a href="#">
-                    <div class="img">
-                        <img src="images/Blog/U3AN.gif" alt="blog-four">
-                        <div class="blog-date">6 Jul,19</div>
-                    </div>
-                    <div class="blog-text">
-                        <h3>Приваблива</h3>
-                        <p>Ти завжди спокуслива,
-Приваблива і чудова!
-Ти впевнена в собі!
-Все вишукано в тобі!
-                        </p>
-                    </div></a>
-                </div>  
-                <div class="blogs">
-                    <a href="#">
-                    <div class="img">
-                        <img src="images/Blog/U3AN.gif" alt="blog-five">
-                        <div class="blog-date">1 Jun,19</div>
-                    </div>
-                    <div class="blog-text">
-                        <h3>Комплімент</h3>
-                        <p>Мій комплімент – він для тебе!
-Гостинна, весела
-Завжди тактовна і мила
-Ти найкрасивіша дівчина на світі
-Моє серце належить тобі на століття!
-                        </p>
-                    </div></a>
-                </div>  
-                <div class="blogs">
-                    <a href="#">
-                    <div class="img">
-                        <img src="images/Blog/U3AN.gif" alt="blog-six">
-                        <div class="blog-date">28 Feb,19</div>
-                    </div>
-                    <div class="blog-text">
-                        <h3>Сердце</h3>
-                        <p>Загадкова і скромна,
-Ти дівчина незрівнянна!
-Ти промінчик світла на Землі!
-Моє серце належить тобі!
-                        </p>
-                    </div></a>
-                </div>        
-            </div>
-               <div class="footer">
-                <div class="footer-text">
-                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Black Phoenix
-                </div>
-               </div>
-        </div>
-     <div id="contact">
-        <div class="color-changer">
-            <div class="color-panel">
-                <img src="images/gear.png" alt="">
-            </div>
-            <div class="color-selector">
-                <div class="heading">Custom Colors</div>
-                <div class="colors">
-                    <ul >
-                    <li>
-                        <a href="#0" class="color-red " title="color-red"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-purple" title="color-purple"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-malt" title="color-malt"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-green" title="color-green"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-blue" title="color-blue"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-orange" title="color-orange"></a>
-                    </li>
-                    </ul>
-                </div>
-            </div>
-            </div>
-         <div class="contact-header">Contact <span class="color"> Me</span>
-        <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div></div>
-        <div class="contact-content">
-             <div class="contact-form">
-                 <div class="form-header">
-                     Message Me
-                 </div>
-                  <form id="myForm" action="">
-                    <div class="input-line">
-                        <input  id="name" type="text" placeholder="Name" class="input-name">
-                        <input id="email" type="email" placeholder="Email"  class="input-name">
-                    </div>
-                    <input type="text" id="subject" placeholder="subject" class="input-subject">
-                    <textarea id ="body" class="input-textarea" placeholder="message"></textarea>
-                    <button type="button" id ="submit" value="send">Submit</button>
-                 </form>
-               
-             </div>
-             <div class="contact-info">
-                <div class="contact-info-header">
-                    Contact Info
-                </div>
-                <div class="contact-info-content">
-                <div class="contect-info-content-line">
-                    <img src="./images/icon-name.png" class="icon" alt="name-icon">
-                    <div class="contact-info-icon-text">
-                        <h6>Name</h6>
-                        <p>Igor Skorokhod</p>
-                  </div>
-                </div>
-                <div class="contect-info-content-line">
-                  <img src="./images/icon-location.png" class="icon" alt="location-icon">
-                  <div class="contact-info-icon-text">
-                      <h6>Location</h6>
-                      <p>Sumy, Ukraine</p>
-                </div>
-              </div>
-              <div class="contect-info-content-line">
-                  <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
-                  <div class="contact-info-icon-text">
-                      <h6>Call</h6>
-                      <p>+380667890756</p>
-                </div>
-              </div>
-              
-              <div class="contect-info-content-line">
-                  <img src="./images/icon-email.png" class="icon" alt="email-icon">
-                  <div class="contact-info-icon-text">
-                      <h6>Email</h6>
-                      <p>Ck.ig.ba@gmail.com</p>
-                </div>
-              </div>
-                </div>
-           </div>
-        </div>
-                    <div class="footer">
-                        <div class="footer-text">
-                            <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Black Phoenix
-                        </div>
-                       </div>
-     </div>
-    </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/particles.min.js"></script>
-    <script src="js/index.js"></script>
-    <script>
-  particlesJS("particles", {"particles":{"number":{"value":40,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
-    </script>
+    </section>
 
-</body>
+    <section id="services">
+        <div class="heading">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2><span class="lobster">Послуги</span> які я надаю</h2>
+                        <p>Я використовую сучасні технології та інструменти веб-розробки, щоб гарантувати високу якість і продуктивність сайтів. Я володію глибоким знанням мов програмування, баз даних, CMS і фреймворків, що дозволяє мені створювати сайти будь-якої складності. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="servicecard">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img src="img/card1.png" alt="">
+                        <h2>Онлайн-магазин</h2>
+                        <p>Я готовий запропонувати вам повний спектр послуг зі створення онлайн-магазину - від дизайну і розробки до оптимізації та просування. Я також допоможу вам вибрати найкращу платформу для вашого магазину, налаштувати онлайн-оплату, налаштувати служби доставки і забезпечити безпеку вашого сайту.</p>
+                        <div class="explore">
+                            <a href="#">Дізнатись більше</a>
+                            <img src="img/explore.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img src="img/card2.png" alt="">
+                        <h2>Мобільний дизайн</h2>
+                        <p>Ми враховуємо всі вимоги та потреби ваших користувачів і розробляємо красивий і функціональний дизайн, який привертає й утримує увагу користувачів. Ми використовуємо сучасні технології та інструменти мобільної веб-розробки, щоб гарантувати високу якість і продуктивність мобільного додатка або веб-сайту.</p>
+                        <div class="explore">
+                            <a href="#">Дізнатись більше</a>
+                            <img src="img/explore.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img src="img/card1.png" alt="">
+                        <h2>Web дизайн</h2>
+                        <p>Я розумію, що веб-дизайн має відповідати вашій цільовій аудиторії, бренду та цілям бізнесу. Тому я працюю тісно з кожним клієнтом, щоб зрозуміти їхні потреби та вимоги, і створюю дизайн, який відповідає їхнім очікуванням.</p>
+                        <div class="explore">
+                            <a href="#">Дізнатись більше</a>
+                            <img src="img/explore.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="testimonial">
+        <div class="heading">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Що <span class="lobster">Кажуть</span>Люди</h2>
+                        <p>Тут я хочу показати кілька відгуків від моїх клієнтів</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testi-slider">
+            <div class="single-testi">
+                <div class="bg-img">
+                    <div class="banner-img img1"></div>
+                </div>
+                <div class="banner-text">
+                    <p>"Я хотів би поділитися своїм позитивним досвідом роботи з цією компанією. Їхня команда професіоналів проявила високий ступінь компетентності та детального розуміння моїх потреб під час роботи над проектом. Вони були відкритими і готовими розглянути будь-які мої пропозиції, питання або вимоги."</p>
+                    <div class="name-pos">
+                        <h2>Дмитро Качур</h2>
+                        <p>Senior Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="single-testi">
+                <div class="bg-img">
+                    <div class="banner-img img2"></div>
+                </div>
+                <div class="banner-text">
+                    <p>"Я отримав гарний і функціональний сайт, який допоміг моєму бізнесу залучати нових клієнтів. Я дуже вдячний веб-розробнику за його професіоналізм і чуйність, і я рекомендую цю компанію всім, хто шукає якісні послуги веб-розробки."</p>
+                    <div class="name-pos">
+                        <h2>Олександр Прокопенко</h2>
+                        <p>Підприємець</p>
+                    </div>
+                </div>
+            </div>
+            <div class="single-testi">
+                <div class="bg-img">
+                    <div class="banner-img img3"></div>
+                </div>
+                <div class="banner-text">
+                    <p>"Я б хотіла поділитися своїм враженням про роботу з цим веб-розробником. Все почалося з того, що я звернулася до них по допомогу у створенні сайту для нашої компанії. Я оцінила їхній професіоналізм і вміння працювати з клієнтами на етапі обговорення проекту. Він швидко зрозумів наші потреби і завдання, а також зумів врахувати більшість наших вимог у створенні дизайну сайту."</p>
+                    <div class="name-pos">
+                        <h2>Анна Новікова</h2>
+                        <p>Маркетолог</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="talk">
+        <div class="heading">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Давайте <span class="lobster">Працювати</span> Разом</h2>
+                        <p>Хочете, щоб ваш сайт був красивим, функціональним і приваблював нових клієнтів? Я готовий допомогти! Звертайтеся до мене, і ми разом розробимо сайт, який відповідатиме всім вашим потребам і завданням. Я володію досвідом і знаннями, щоб створити унікальний і ефективний сайт для вашого бізнесу. Давайте почнемо роботу над вашим проектом вже сьогодні!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 lets">
+                    <a href="#">Написати</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                <div class="d-flex justify-content-between align-items-center">
+                <div class="name">
+                    <h2>І.<span style="color: #d10e00;">Skorokhod</span></h2>
+                </div>
+                <div class="rights">
+                    <p>Всі права захищені</p>
+                </div>
+
+                    <div class="sicon">
+                        <a href="https://www.facebook.com/IHorsv2011"><i  class="fab fa-facebook-f"></i></a>
+                        <a  href="https://twitter.com/IgorSkorok17645"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/_.White__phoenix._/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
