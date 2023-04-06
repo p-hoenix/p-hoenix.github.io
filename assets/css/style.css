@@ -165,7 +165,10 @@
     font-size: 26px;
     color: rgb(133, 133, 133);
 }
-
+.hi {
+    font-size: 42px;
+    color: rgb(133, 133, 133);
+}
 #home .hero h2 {
     font-size: 56px;
     font-weight: 800;
