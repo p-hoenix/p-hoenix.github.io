@@ -1,249 +1,502 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html class="wide" lang="en">
   <head>
-    <title>Igor Skorokhod</title>
-    <!-- Required meta tags -->
+    <!-- Site Title-->
+    <title>Phoenix-portfolio</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link rel="icon" type="image/png" href="img/logo.png" sizes="16x16">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Barlow:100,200,300,400,700">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
-      
-    <section id="home">
-        <div class="header">
-            <div class="logo">
-                <img src="img/logo.png" alt="">
-            </div>
-            <input type="checkbox" id="active">
-            <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
-            <div class="wrapper">
-                <ul class="menu">
-                    <li><a href="#home">Головна</a></li>
-                    <li><a href="#services">Послуги</a></li>
-                    <li><a href="#works">Мої роботи</a></li>
-                    <li><a href="#talk">Зв'язатись зі мною</a></li>
-                </ul>
-            </div>
-            <div class="hero">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
-                            <div class="hello">
-                                <img src="img/hello.png" alt="">
-                                <p><span class="hi">Привіт!!! </span></p>
-                            </div>
-                            <h1>Я,Ігор</h1>
-                            <div class="aboutme">
-                                <p>Про мене</p>
-                                <img src="img/down.png" alt="">
-                            </div>
-                            <div class="aboutdetails">
-                                <p>Я створюю функціональні та привабливі веб-сайти, націлені на збільшення вашого бізнесу. З досвідом у створенні якісних проєктів, я пропоную індивідуальний підхід до кожного проєкту і працюю над тим, щоб досягти максимальних результатів для кожного клієнта. Я переконаний, що деталі мають значення, і приділяю особливу увагу кожній деталі в процесі розробки сайту. Зв'яжіться зі мною сьогодні, щоб почати роботу над вашим новим проектом і привести ваш бізнес на новий рівень!</p>
-                            </div>
-                            <div class="explore">
-                                <a href="#">Дізнатись більше</a>
-                                <img src="img/explore.svg" alt="">
-                            </div>
-                            <div class="social">
-                                <p>Слідкувати:</p>
-                                <div class="icons">
-                                    <a href="https://www.facebook.com/IHorsv2011"><i  class="fab fa-facebook-f"></i></a>
-                                    <a  href="https://twitter.com/IgorSkorok17645"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.instagram.com/_.White__phoenix._/"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 ipad-center">
-                            <div class="headsvg">
-                                <img src="img/header.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12">
-                            <div class="righthead">
-                                <div class="wrap">
-                                    <div class="bg"></div>
-                                    <h2>1+</h2>
-                                    <span class="heading">Досвіду</span>
-                                    <p>Я дуже амбітний і мрію стати досвідченим веб-розробником, який створює круті та красиві сайти, які залишають враження на людей. Я знаю, що в мене ще багато роботи, щоб досягти своєї мети, але я готовий вчитися і розвиватися, щоб стати кращим у своїй галузі.</p>
-                                </div>
-                                <div class="wrap mt-5">
-                                    <div class="bg2"></div>
-                                    <h2>20+</h2>
-                                    <span class="heading">Повністю готових сайтів</span>
-                                    <p>Мені дуже подобається створювати веб-сторінки робити їх гарними та функціональними. Я постійно вивчаю наві технології та інструменти, щоб стати кращим в своїй рооботі.</p>
-                                </div>
-                                <div class="contact">
-                                    <i class="far fa-comment-dots"></i>
-                                    <div class="contactdetails">
-                                        <p class="red">Моя пошта:</p>
-                                        <p>ck.ig.ba@gmail.com</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <!-- Page-->
+    <div class="page bg-image novi-background">
+      <div class="preloader">
+        <div class="preloader-body">
+          <div class="cssload-container">
+            <div class="cssload-speeding-wheel"></div>
+          </div>
+          <p>Loading...</p>
         </div>
-    </section>
-
-    <section id="services">
-        <div class="heading">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2><span class="lobster">Послуги</span> які я надаю</h2>
-                        <p>Я використовую сучасні технології та інструменти веб-розробки, щоб гарантувати високу якість і продуктивність сайтів. Я володію глибоким знанням мов програмування, баз даних, CMS і фреймворків, що дозволяє мені створювати сайти будь-якої складності. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="servicecard">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <img src="img/card1.png" alt="">
-                        <h2>Онлайн-магазин</h2>
-                        <p>Я готовий запропонувати вам повний спектр послуг зі створення онлайн-магазину - від дизайну і розробки до оптимізації та просування. Я також допоможу вам вибрати найкращу платформу для вашого магазину, налаштувати онлайн-оплату, налаштувати служби доставки і забезпечити безпеку вашого сайту.</p>
-                        <div class="explore">
-                            <a href="#">Дізнатись більше</a>
-                            <img src="img/explore.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <img src="img/card2.png" alt="">
-                        <h2>Мобільний дизайн</h2>
-                        <p>Ми враховуємо всі вимоги та потреби ваших користувачів і розробляємо красивий і функціональний дизайн, який привертає й утримує увагу користувачів. Ми використовуємо сучасні технології та інструменти мобільної веб-розробки, щоб гарантувати високу якість і продуктивність мобільного додатка або веб-сайту.</p>
-                        <div class="explore">
-                            <a href="#">Дізнатись більше</a>
-                            <img src="img/explore.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <img src="img/card1.png" alt="">
-                        <h2>Web дизайн</h2>
-                        <p>Я розумію, що веб-дизайн має відповідати вашій цільовій аудиторії, бренду та цілям бізнесу. Тому я працюю тісно з кожним клієнтом, щоб зрозуміти їхні потреби та вимоги, і створюю дизайн, який відповідає їхнім очікуванням.</p>
-                        <div class="explore">
-                            <a href="#">Дізнатись більше</a>
-                            <img src="img/explore.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="testimonial">
-        <div class="heading">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>Що <span class="lobster">Кажуть</span>Люди</h2>
-                        <p>Тут я хочу показати кілька відгуків від моїх клієнтів</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="testi-slider">
-            <div class="single-testi">
-                <div class="bg-img">
-                    <div class="banner-img img1"></div>
-                </div>
-                <div class="banner-text">
-                    <p>"Я хотів би поділитися своїм позитивним досвідом роботи з цією компанією. Їхня команда професіоналів проявила високий ступінь компетентності та детального розуміння моїх потреб під час роботи над проектом. Вони були відкритими і готовими розглянути будь-які мої пропозиції, питання або вимоги."</p>
-                    <div class="name-pos">
-                        <h2>Дмитро Качур</h2>
-                        <p>Senior Designer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="single-testi">
-                <div class="bg-img">
-                    <div class="banner-img img2"></div>
-                </div>
-                <div class="banner-text">
-                    <p>"Я отримав гарний і функціональний сайт, який допоміг моєму бізнесу залучати нових клієнтів. Я дуже вдячний веб-розробнику за його професіоналізм і чуйність, і я рекомендую цю компанію всім, хто шукає якісні послуги веб-розробки."</p>
-                    <div class="name-pos">
-                        <h2>Олександр Прокопенко</h2>
-                        <p>Підприємець</p>
-                    </div>
-                </div>
-            </div>
-            <div class="single-testi">
-                <div class="bg-img">
-                    <div class="banner-img img3"></div>
-                </div>
-                <div class="banner-text">
-                    <p>"Я б хотіла поділитися своїм враженням про роботу з цим веб-розробником. Все почалося з того, що я звернулася до них по допомогу у створенні сайту для нашої компанії. Я оцінила їхній професіоналізм і вміння працювати з клієнтами на етапі обговорення проекту. Він швидко зрозумів наші потреби і завдання, а також зумів врахувати більшість наших вимог у створенні дизайну сайту."</p>
-                    <div class="name-pos">
-                        <h2>Анна Новікова</h2>
-                        <p>Маркетолог</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="talk">
-        <div class="heading">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>Давайте <span class="lobster">Працювати</span> Разом</h2>
-                        <p>Хочете, щоб ваш сайт був красивим, функціональним і приваблював нових клієнтів? Я готовий допомогти! Звертайтеся до мене, і ми разом розробимо сайт, який відповідатиме всім вашим потребам і завданням. Я володію досвідом і знаннями, щоб створити унікальний і ефективний сайт для вашого бізнесу. Давайте почнемо роботу над вашим проектом вже сьогодні!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+      </div>
+      <!-- Page Header-->
+      <header class="section page-header">
         <div class="container">
-            <div class="row">
-                <div class="col-12 lets">
-                    <a href="#">Написати</a>
-                </div>
+          <div class="row justify-content-between align-items-end row-30">
+            <div class="col-12 col-md-6"><a class="brand-logo" href="./"><img src="images/logo-default-346x62.png" alt="" width="346" height="62"/></a></div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="head-title">
+                <p>I am a professional specializing <br class="d-none d-md-inline-block">in 3D modeling and Visualization.</p>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-
-    <section id="footer">
+      </header>
+      <section class="section section-xs">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                <div class="d-flex justify-content-between align-items-center">
-                <div class="name">
-                    <h2>І.<span style="color: #d10e00;">Skorokhod</span></h2>
-                </div>
-                <div class="rights">
-                    <p>Всі права захищені</p>
-                </div>
-
-                    <div class="sicon">
-                        <a href="https://www.facebook.com/IHorsv2011"><i  class="fab fa-facebook-f"></i></a>
-                        <a  href="https://twitter.com/IgorSkorok17645"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/_.White__phoenix._/"><i class="fab fa-instagram"></i></a>
+          <!-- Bootstrap tabs-->
+          <div class="tabs-custom tabs-horizontal tabs-corporate" id="tabs-1">
+            <!-- Nav tabs-->
+            <ul class="nav nav-tabs">
+              <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-1-1" data-toggle="tab"><span class="nav-link-main">gallery</span></a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-2" data-toggle="tab"><span class="nav-link-main">about me</span></a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-3" data-toggle="tab"><span class="nav-link-main">services</span></a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-4" data-toggle="tab"><span class="nav-link-main">contacts</span></a></li>
+            </ul>
+            <!-- Tab panes-->
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="tabs-1-1">
+                <div class="tabs-custom tabs-horizontal tabs-gallery hide-on-modal" id="tabs-galery">
+                  <!-- Nav tabs-->
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-1" data-toggle="tab"><img src="images/gallery-01-180x180.jpg" alt="" width="180" height="180"/><span>Visualization</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-2" data-toggle="tab"><img src="images/gallery-02-180x180.jpg" alt="" width="180" height="180"/><span>Practice</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-3" data-toggle="tab"><img src="images/gallery-03-180x180.jpg" alt="" width="180" height="180"/><span>Isometric</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-4" data-toggle="tab"><img src="images/gallery-04-180x180.jpg" alt="" width="180" height="180"/><span>Hard Surface</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-5" data-toggle="tab"><img src="images/gallery-05-180x180.jpg" alt="" width="180" height="180"/><span>Learning Experience</span></a></li>
+                  </ul>
+                  <!-- visualization-->
+                  <div class="tab-content">
+                    <div class="tab-pane fade" id="tabs-gallery-1">
+                      <div class="gallery-wrap">
+                        <div class="gallery-wrap-inner">
+                          <h4>Visualization</h4>
+                          <div class="dots-custom-lifestyle"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
+                        </div>
+                        <div class="gallery-wrap-inner">
+                          <!-- Owl Carousel-->
+                          <div class="owl-carousel owl-gallery" data-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="false" data-lightgallery="group" data-pagination-class=".dots-custom-lifestyle"><a class="gallery-item" href="images/Visualization/gallery-Visualization-01-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/Visualization/gallery-Visualization-01-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/Visualization/gallery-Visualization-02-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/Visualization/gallery-Visualization-02-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/Visualization/gallery-Visualization-03-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/Visualization/gallery-Visualization-03-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/Visualization/gallery-Visualization-04-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/Visualization/gallery-Visualization-04-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/Visualization/gallery-Visualization-05-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/Visualization/gallery-Visualization-05-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/Visualization/gallery-Visualization-06-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/Visualization/gallery-Visualization-06-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/Visualization/gallery-Visualization-07-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/Visualization/gallery-Visualization-07-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/Visualization/gallery-Visualization-08-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/Visualization/gallery-Visualization-08-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/Visualization/gallery-Visualization-09-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/Visualization/gallery-Visualization-09-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                    <!--Portrait-->
+                    <div class="tab-pane fade" id="tabs-gallery-2">
+                      <div class="gallery-wrap">
+                        <div class="gallery-wrap-inner">
+                          <h4>PRACTICE</h4>
+                          <div class="dots-custom-portrait"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
+                        </div>
+                        <div class="gallery-wrap-inner">
+                          <!-- Owl Carousel-->
+                          <div class="owl-carousel owl-gallery" data-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="false" data-lightgallery="group" data-pagination-class=".dots-custom-portrait"><a class="gallery-item" href="images/gallery-portrait-02-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-portrait-02-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-portrait-01-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-portrait-01-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-portrait-03-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-portrait-03-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-portrait-04-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-portrait-04-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-portrait-05-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-portrait-05-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-portrait-06-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-portrait-06-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-portrait-07-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-portrait-07-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-portrait-08-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-portrait-08-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Fashion-->
+                    <div class="tab-pane fade" id="tabs-gallery-3">
+                      <div class="gallery-wrap">
+                        <div class="gallery-wrap-inner">
+                          <h4>Fashion</h4>
+                          <div class="dots-custom-fashion"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
+                        </div>
+                        <div class="gallery-wrap-inner">
+                          <!-- Owl Carousel-->
+                          <div class="owl-carousel owl-gallery" data-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="false" data-lightgallery="group" data-pagination-class=".dots-custom-fashion"><a class="gallery-item" href="images/gallery-fashion-03-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-fashion-03-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-fashion-01-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-fashion-01-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-fashion-02-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-fashion-02-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-fashion-04-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-fashion-04-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-fashion-05-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-fashion-05-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-fashion-06-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-fashion-06-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-fashion-07-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-fashion-07-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-fashion-08-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-fashion-08-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--nature-->
+                    <div class="tab-pane fade" id="tabs-gallery-4">
+                      <div class="gallery-wrap">
+                        <div class="gallery-wrap-inner">
+                          <h4>Nature</h4>
+                          <div class="dots-custom-nature"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
+                        </div>
+                        <div class="gallery-wrap-inner">
+                          <!-- Owl Carousel-->
+                          <div class="owl-carousel owl-gallery" data-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="false" data-lightgallery="group" data-pagination-class=".dots-custom-nature"><a class="gallery-item" href="images/gallery-nature-07-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-07-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-nature-01-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-01-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-nature-02-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-02-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><div class="sketchfab-embed-wrapper"> <iframe title="Lamborghini Aventador SVJ - SC20 CARBON EDITION" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/7c2ec7bcd5a94dc8a482b6a5773b5260/embed" alt="" width="970" height="524"> </iframe> </div>
+                              <figure><iframe title="Lamborghini Aventador SVJ - SC20 CARBON EDITION" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/7c2ec7bcd5a94dc8a482b6a5773b5260/embed" alt="" width="970" height="524"> </iframe>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-nature-04-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-04-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-nature-05-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-05-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-nature-06-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-06-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-nature-08-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-08-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--city-->
+                    <div class="tab-pane fade" id="tabs-gallery-5">
+                      <div class="gallery-wrap">
+                        <div class="gallery-wrap-inner">
+                          <h4>Citylife</h4>
+                          <div class="dots-custom-city"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
+                        </div>
+                        <div class="gallery-wrap-inner">
+                          <!-- Owl Carousel-->
+                          <div class="owl-carousel owl-gallery" data-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="false" data-lightgallery="group" data-pagination-class=".dots-custom-city"><a class="gallery-item" href="images/gallery-city-02-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-city-02-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-city-01-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-city-01-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-city-03-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-city-03-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-city-04-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-city-04-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-city-05-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-city-05-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-city-06-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-city-06-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-city-07-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-city-07-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <div class="tab-pane fade" id="tabs-1-2">
+                <div class="content-box hide-on-modal">
+                  <div class="content-box-inner">
+                    <div class="row align-items-center row-30 row-md-30">
+                      <div class="col-12 col-md-6 col-lg-7">
+                        <figure><img src="images/about-01-504x369.png" alt="" width="504" height="369"/>
+                        </figure>
+                      </div>
+                      <div class="col-12 col-md-6 col-lg-5">
+                        <h3>Who I Am</h3>
+                        <p class="subtitle">bermodi tempora incidunt ut labore et dolore magna maliquam</p>
+                        <p>Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incidunt ut labore et dolore magnam. Naliquam quaerat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur.</p><a class="button button-primary button-icon button-icon-left" href="#" data-toggle="modal" data-target="#modal-about-us"><span>More</span><span class="novi-icon icon fa-angle-right"></span></a>
+                      </div>
+                    </div>
+                  </div><a class="close-content-box" href="#">x</a>
+                </div>
+                <div class="modal slideUp" id="modal-about-us" tabindex="-1" role="dialog" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="content-box">
+                        <div class="content-box-inner">
+                          <div class="row">
+                            <div class="col-12">
+                              <h3>A Few Words About Me</h3>
+                              <p>Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit, muytasas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae.</p>
+                              <p>Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit. Asas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit, muytasas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempo. Asas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea</p>
+                            </div>
+                          </div>
+                        </div><a class="close-modal-content-box" href="#" data-dismiss="modal">x</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="tabs-1-3">
+                <div class="content-box hide-on-modal">
+                  <div class="content-box-inner row-30">
+                    <h3>Services Overview</h3>
+                    <div class="row align-items-center row-30">
+                      <div class="col-12 col-md-6">
+                        <div class="unit service-box">
+                          <div class="unit-left"><span class="novi-icon icon icon-lg fa-clock-o"></span></div>
+                          <div class="unit-body"><a class="subtitle" href="#" data-toggle="modal" data-target="#modal-service-1">bermodi tempora incidunt ut labore et dolore magna maliquam</a>
+                            <p>Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore et dolore magnam. Naliquam quae.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <div class="unit service-box">
+                          <div class="unit-left"><span class="novi-icon icon icon-lg fa-cloud"></span></div>
+                          <div class="unit-body"><a class="subtitle" href="#" data-toggle="modal" data-target="#modal-service-2">cidunt ut labore t dolore magna maliqua mquaerat voleneni.</a>
+                            <p>Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore et dolore magnam. Naliquam quae.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <div class="unit service-box">
+                          <div class="unit-left"><span class="novi-icon icon icon-lg fa-bell"></span></div>
+                          <div class="unit-body"><a class="subtitle" href="#" data-toggle="modal" data-target="#modal-service-3">empora incidunt ut labore et dolore magna maliquam lroep oirta.</a>
+                            <p>Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore et dolore magnam. Naliquam quae.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <div class="unit service-box">
+                          <div class="unit-left"><span class="novi-icon icon icon-lg fa-image"></span></div>
+                          <div class="unit-body"><a class="subtitle" href="#" data-toggle="modal" data-target="#modal-service-4">dunt ut labore et dolore magna aliquam lroep oirta lreo prota.</a>
+                            <p>Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore et dolore magnam. Naliquam quae.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><a class="close-content-box" href="#">x</a>
+                </div>
+                <div class="modal slideUp" id="modal-service-1" tabindex="-1" role="dialog" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="content-box">
+                        <div class="content-box-inner">
+                          <div class="row">
+                            <div class="col-12">
+                              <h3>bermodi tempora incidunt ut labore et dolore magna maliquam</h3>
+                              <p>Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit, muytasas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae.</p>
+                              <p>Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit. Asas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit, muytasas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempo. Asas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea</p>
+                            </div>
+                          </div>
+                        </div><a class="close-modal-content-box" href="#" data-dismiss="modal">x</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal slideUp" id="modal-service-2" tabindex="-1" role="dialog" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="content-box">
+                        <div class="content-box-inner">
+                          <div class="row">
+                            <div class="col-12">
+                              <h3>cidunt ut labore t dolore magna maliqua mquaerat voleneni.</h3>
+                              <p>Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit, muytasas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae.</p>
+                              <p>Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit. Asas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit, muytasas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempo. Asas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea</p>
+                            </div>
+                          </div>
+                        </div><a class="close-modal-content-box" href="#" data-dismiss="modal">x</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal slideUp" id="modal-service-3" tabindex="-1" role="dialog" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="content-box">
+                        <div class="content-box-inner">
+                          <div class="row">
+                            <div class="col-12">
+                              <h3>empora incidunt ut labore et dolore magna maliquam lroep oirta.</h3>
+                              <p>Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit, muytasas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae.</p>
+                              <p>Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit. Asas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit, muytasas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempo. Asas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea</p>
+                            </div>
+                          </div>
+                        </div><a class="close-modal-content-box" href="#" data-dismiss="modal">x</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal slideUp" id="modal-service-4" tabindex="-1" role="dialog" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="content-box">
+                        <div class="content-box-inner">
+                          <div class="row">
+                            <div class="col-12">
+                              <h3>dunt ut labore et dolore magna aliquam lroep oirta lreo prota.</h3>
+                              <p>Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit, muytasas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae.</p>
+                              <p>Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit. Asas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit, muytasas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempo. Asas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea</p>
+                            </div>
+                          </div>
+                        </div><a class="close-modal-content-box" href="#" data-dismiss="modal">x</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="tabs-1-4">
+                <div class="content-box hide-on-modal">
+                  <div class="row row-30 justify-content-center align-items-center">
+                    <div class="col-12 col-md-7">
+                      <!--RD Mailform-->
+                      <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                        <div class="row row-14 gutters-14">
+                          <div class="col-sm-6">
+                            <div class="form-wrap">
+                              <label class="form-label" for="contact-name">Name</label>
+                              <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-wrap">
+                              <label class="form-label" for="contact-phone">Phone</label>
+                              <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Required @PhoneNumber">
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-wrap">
+                              <label class="form-label" for="contact-message">Message</label>
+                              <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-wrap">
+                              <label class="form-label" for="contact-email">E-Mail</label>
+                              <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Required @Email">
+                            </div>
+                          </div>
+                          <div class="col-sm-6 align-self-end">
+                            <div class="form-button">
+                              <button class="button button-lg button-block button-primary" type="submit">Send</button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <h3>Contact Info</h3>
+                      <address class="subtitle">Sumy,<br> Ukraine.</address>
+                      <ul class="contact-info">
+                        <li><span>Freephone:</span><a href="tel:#">+380 66 789 0756</a></li>
+                        <li><span>Telephone:</span><a href="tel:#">+380 96 282 2860</a></li>
+                        <li><span>E-mail:</span><a href="mailto:#">ck.ig.ba@gmail.com</a></li>
+                      </ul>
+                    </div>
+                  </div><a class="close-content-box" href="#">x</a>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </section><a class="section section-banner d-xl-none" href="https://www.templatemonster.com/website-templates/monstroid2.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )" target="_blank"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a>
+      <!-- Page Footer-->
+      <footer class="section footer-classic context-dark novi-background">
+        <div class="container">
+          <div class="footer-group">
+            <ul class="list-inline list-inline-xs">
+              <li><a class="novi-icon icon-xxs fa-facebook icon" href="#"></a></li>
+              <li><a class="novi-icon icon-xxs fa-twitter icon" href="#"></a></li>
+              <li><a class="novi-icon icon-xxs fa-google-plus icon" href="#"></a></li>
+              <li><a class="novi-icon icon-xxs fa-vimeo icon" href="#"></a></li>
+              <li><a class="novi-icon icon-xxs fa-youtube icon" href="#"></a></li>
+              <li><a class="novi-icon icon-xxs fa-pinterest-p icon" href="#"></a></li>
+            </ul>
+            <!-- Rights-->
+            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>.&nbsp;</span><a href="#" data-toggle="modal" data-target="#privacy">Privacy Policy</a>. Design&nbsp;by&nbsp;<a href="https://www.templatemonster.com/">Templatemonster</a></p>
+          </div>
         </div>
-    </section>
+        <!-- Coded by JeremyLuis-->
+      </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <div class="modal modal-centered slideUp" id="privacy" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="content-box">
+              <div class="content-box-inner">
+                <div class="row">
+                  <div class="col-12">
+                    <h3>Privacy Policy</h3>
+                    <p>Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit, muytasas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae.</p>
+                    <p>Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit. Asas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea commodi consequatur. Aquis autem vel eum iure reprehenderit, muytasas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempo. Asas dresasaser. Esse, quam nihil molestiae consequatur, vel illum. Dastqui dolorem ipsumquia dolsitmet conse tequam eius. Asmodi tempora incid. Dent ut labore t dolore magnam. Naliquam quae. Rat voleneni ullam corporis suscipit labasic ut aliquidea</p>
+                  </div>
+                </div>
+              </div><a class="close-modal-content-box" href="#" data-dismiss="modal">x</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- coded by ragnar-->
   </body>
 </html>
